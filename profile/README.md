@@ -2,7 +2,7 @@
 
 **Protect your media from unauthorized AI training.**
 
-Sidearm is an API platform for watermarking, AI content detection, content credentials, and similarity search. Run research-grade algorithms like Nightshade, Glaze, SPECTRA, and C2PA through a single API.
+Sidearm is an API platform for watermarking, AI content detection, content credentials, and similarity search. Run adversarial, proprietary, and open-source protection algorithms through a single API.
 
 ## Get Started
 
@@ -57,10 +57,10 @@ curl -X POST https://api.sdrm.io/api/v1/protect \
 
 ## What It Does
 
-- **Watermarking** -- Invisible marks that survive compression, cropping, and reformatting (HMark, TextMark, PDFStego)
-- **AI Training Poison** -- Perturbations that confuse models trained on your content (Nightshade, SPECTRA)
-- **Style Protection** -- Prevents AI from mimicking your artistic style or voice (Glaze, VocalGlaze)
-- **Content Credentials** -- C2PA provenance signing with tamper-evident chain of custody
+- **Watermarking** -- Invisible marks that survive compression, cropping, and reformatting
+- **AI Training Poison** -- Adversarial perturbations that confuse models trained on your content
+- **Style Protection** -- Prevents AI from mimicking your artistic style or voice
+- **Content Credentials** -- Cryptographic provenance signing with tamper-evident chain of custody
 - **AI Detection** -- Detect whether content was AI-generated across image, video, audio, and text
 - **Similarity Search** -- Find stolen or derivative content across your indexed library
 - **Membership Inference** -- Prove whether an AI model trained on your protected content
